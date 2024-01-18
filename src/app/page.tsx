@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./globals.css";
-import AboutMe from "./components/about_me";
+import AboutMe from "./about_me";
 
 export default function Home() {
   return (
