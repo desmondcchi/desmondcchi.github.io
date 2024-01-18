@@ -1,21 +1,26 @@
 import Image from "next/image";
 import "./globals.css";
+import AboutMe from "../app/components/about_me";
 
 export default function Home() {
   return (
-    <div className="home">
-      <div className="name">
-        <h1>Desmond Chi</h1>
-        <p>I am an aspiring software engineer.</p>
+    <main>
+      <div className="home flex mt-80">
+        <div className="name inline-block text-left pl-80 m-auto">
+          <b className="text-7xl">Desmond Chi</b>
+          <p className="text-xl">An aspiring software engineer.</p>
+        </div>
+        <div className="profile_picture inline-block pr-80 m-auto">
+          <Image
+            className="rounded-full"
+            src="./images/profile_picture.png"
+            alt={""}
+            width="300"
+            height="300"
+          ></Image>
+        </div>
       </div>
-      <div className="profile_picture">
-        <Image
-          src="./images/profile_picture.png"
-          alt={""}
-          width={"100"}
-          height={"100"}
-        ></Image>
-      </div>
-    </div>
+      <AboutMe />
+    </main>
   );
 }
