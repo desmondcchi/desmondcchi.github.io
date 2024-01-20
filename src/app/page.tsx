@@ -1,14 +1,14 @@
 import Image from "next/image";
 import "./globals.css";
-// import AboutMe from "./components/about_me";
+import AboutMe from "./components/about_me";
 
 export default function Home() {
   return (
     <main>
-      <div className="home flex mt-80">
-        <div className="name inline-block text-left pl-80 m-auto">
-          <b className="text-7xl">Desmond Chi</b>
-          <p className="text-xl">An aspiring software engineer.</p>
+      <div className="home flex mt-80 mb-[500px]">
+        <div className="inline-block text-left pl-80 m-auto">
+          <b className="heading_text text-7xl">Desmond Chi</b>
+          <p className="text-xl font-light">An aspiring software engineer.</p>
         </div>
         <div className="profile_picture inline-block pr-80 m-auto">
           <Image
@@ -20,7 +20,7 @@ export default function Home() {
           ></Image>
         </div>
       </div>
-      {/* <AboutMe /> */}
+      <AboutMe />
     </main>
   );
 }

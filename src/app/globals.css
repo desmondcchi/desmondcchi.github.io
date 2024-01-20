@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: #dadada;
+  --foreground-rgb: #cdd3e7;
   --background-color: #24283b;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -20,10 +20,6 @@ body {
   border-style: solid;
 }
 
-/* .name b {
-  font-size: 500%
+.heading_text {
+  color: #ececfc;
 }
-
-.name p {
-  font-size: 150%
-} */
