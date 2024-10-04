@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./globals.css";
 import AboutMe from "./components/about_me";
+import Experience from "./components/experience";
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
             alt={""}
             width="300"
             height="300"
-          ></Image>
+          />
         </div>
       </div>
       <AboutMe />
+      <Experience />
     </main>
   );
 }

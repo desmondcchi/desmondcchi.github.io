@@ -1,0 +1,45 @@
+{
+  "experiences": [
+    {
+      "title": "SWE Intern (Search)",
+      "loc": "New York City, NY",
+      "desc": "Internship",
+      "comp": "Google",
+      "start_date": "June 2024",
+      "end_date": "September 2024",
+      "accomps": [
+        "Spearheaded the development of a user-facing Search feature for food recipe entity cards, resulting in a 5.72% increase in growth with recipe content.",
+        "Reduced vertical onboarding time by ~1 week and decreased feature maintenance costs by integrating dynamic refinement chips and automated subtitle generation. Increased user satisfaction by 2%.",
+        "Implemented a scalable fulfillment path that retrieves higher-quality metadata.",
+        "Played a key role in achieving an increase in overall Search growth and improvement in key impact metrics."
+      ]
+    },
+    {
+      "title": "STEP Intern (Search)",
+      "loc": "Bellevue, WA",
+      "desc": "Internship",
+      "comp": "Google",
+      "start_date": "June 2023",
+      "end_date": "September 2023",
+      "accomps": [
+        "Developed a feature to recommend categories for creators and social media webpages by utilizing embeddings.",
+        "Constructed several Flume pipelines to filter, analyze, and compute the similarity of embeddings and generate clusters.",
+        "Optimized a bottom-up clustering algorithm via hyperparameter tuning, which improved the cohesiveness of the clusters and increased cluster coverage by 41% on average.",
+        "Utilized C++, parallel data processing (Flume), and machine learning concepts and skills such as embeddings, unsupervised learning, and clustering algorithms."
+      ]
+    },
+    {
+      "title": "STEP Intern (Cloud Tech Infrastructure)",
+      "loc": "Madison, WI",
+      "desc": "Internship",
+      "comp": "Google",
+      "start_date": "June 2022",
+      "end_date": "September 2022",
+      "accomps": [
+        "Developed a full-stack Cloud Tech Infrastructure dashboard that analyzes RPC latency for a distributed file system proxy service.",
+        "Learned and utilized SQL, C++, Object-Oriented Programming, Version Control, HTML, CSS, and JavaScript.",
+        "Gained knowledge and experience in the software engineering industry from full-time engineers."
+      ]
+    }
+  ]
+}
