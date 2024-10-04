@@ -23,6 +23,7 @@ export default function Home() {
       </div>
       <AboutMe />
       <Experience />
+      <p>Test GitHub actions.</p>
     </main>
   );
 }
