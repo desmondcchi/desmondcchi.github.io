@@ -24,6 +24,7 @@ export default function Home() {
       <AboutMe />
       <Experience />
       <p>Trigger GitHub workflow.</p>
+      <p>Test GitHub actions.</p>
     </main>
   );
 }
