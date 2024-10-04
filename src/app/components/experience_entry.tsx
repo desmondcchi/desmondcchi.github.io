@@ -32,8 +32,8 @@ export default function ExperienceEntry({
         </div>
       </div>
       <div className="my-5 text-lg">
-        {accomps.map((accomp) => (
-          <p className="ml-5 font-thin">• {accomp}</p>
+        {accomps.map((accomp, i) => (
+          <p key={i} className="ml-5 font-thin">• {accomp}</p>
         ))}
       </div>
     </div>
