@@ -2,6 +2,7 @@ import Image from "next/image";
 import "./globals.css";
 import AboutMe from "./components/about_me";
 import Experience from "./components/experience";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       </div>
       <AboutMe />
       <Experience />
+      <Contact />
     </main>
   );
 }
