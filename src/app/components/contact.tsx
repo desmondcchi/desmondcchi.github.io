@@ -5,7 +5,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   return (
-    <div className="my-[500px] flex items-center justify-center">
+    <div id="contact" className="my-[500px] flex items-center justify-center scroll-m-[10rem]">
       <div className="w-[1000px] text-center">
         <div className="my-10">
           <b className="text-5xl">Contact Me</b>
@@ -13,12 +13,12 @@ export default function Contact() {
 
         <div className="flex items-start justify-center">
           <div className="flex items-center justify-center font-thin">
-            <FontAwesomeIcon icon={faEnvelope} className="w-8 m-5" />
+            <FontAwesomeIcon icon={faEnvelope} size="2x" className="w-8 m-5" />
             <p>desmonddchi@gmail.com</p>
           </div>
         </div>
 
-        <div className="flex items-start justify-center m-[-1.25rem]">
+        <div className="flex items-start justify-center m-[-1.5rem]">
           <a
             href="./data/Desmond%20Chi%20Resume.pdf"
             download="Desmond Chi Resume.pdf"
@@ -26,9 +26,10 @@ export default function Contact() {
             <div className="flex items-center justify-center font-thin ml-[-8rem]">
               <FontAwesomeIcon
                 icon={faFile}
+                size="3x"
                 className="w-8 m-5"
               ></FontAwesomeIcon>
-              <p className="hover:text-blue-400">Resume</p>
+              <p className="hover:text-blue-400 transition-all duration-300 ease-in-out">Resume</p>
             </div>
           </a>
         </div>
@@ -41,6 +42,7 @@ export default function Contact() {
           >
             <FontAwesomeIcon
               icon={faGithub}
+              size="6x"
               className="w-20 hover:text-slate-400 transition-all duration-300 ease-in-out"
             />
           </a>
@@ -51,6 +53,7 @@ export default function Contact() {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
+              size="6x"
               className="w-20 hover:text-slate-400 transition-all duration-300 ease-in-out"
             />
           </a>
