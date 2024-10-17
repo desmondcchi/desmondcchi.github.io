@@ -10,7 +10,7 @@ export default function Experience() {
   const experiences: ExperienceEntryProps[] = GetExperiences();
 
   return (
-    <div className="my-[500px] flex items-center justify-center text-left">
+    <div id="experience" className="my-[500px] flex items-center justify-center text-left scroll-m-0">
       <div className="w-[1000px]">
         <b className="heading_text text-7xl leading-[10rem]">Experience</b>
         {experiences.map((experience, i) => (
