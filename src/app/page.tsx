@@ -13,7 +13,7 @@ function scrollToElement(element: string) {
 export default function Home() {
   return (
     <main>
-      <nav className="w-[6rem] h-[35rem] bg-slate-700 rounded-full fixed top-[10rem] keft-0 ml-6 py-8 shadow-2xl">
+      <nav className="w-[6rem] h-[35rem] bg-slate-700 rounded-full fixed top-[10rem] ml-6 py-8 shadow-2xl">
         <ul className="flex flex-col justify-between text-center h-full">
           <li
             onClick={() => scrollToElement("#home")}
@@ -42,13 +42,13 @@ export default function Home() {
         </ul>
       </nav>
       <div id="home" className="flex mt-80 mb-[500px] scroll-m-[20rem]">
-        <div className="inline-block text-left pl-80 m-auto">
-          <b className="heading_text text-7xl">Desmond Chi</b>
+        <div className="text-left pl-80 m-auto">
+          <b className="text-7xl">Desmond Chi</b>
           <p className="text-xl font-light">An aspiring software engineer.</p>
         </div>
-        <div className="profile_picture inline-block pr-80 m-auto">
+        <div className="pr-60 m-auto">
           <Image
-            className="rounded-full"
+            className="rounded-full shadow-2xl"
             src="./images/profile_picture.png"
             alt={""}
             width="300"
