@@ -5,7 +5,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   return (
-    <div id="contact" className="my-[500px] flex items-center justify-center scroll-m-[10rem]">
+    <div id="contact" className="mt-[500px] mb-[250px] flex items-center justify-center scroll-m-[10rem]">
       <div className="w-[1000px] text-center">
         <div className="my-10">
           <b className="text-5xl">Contact Me</b>
