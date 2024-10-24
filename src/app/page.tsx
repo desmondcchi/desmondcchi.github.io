@@ -46,7 +46,7 @@ export default function Home() {
           <b className="text-7xl">Desmond Chi</b>
           <p className="text-xl font-light">An aspiring software engineer.</p>
         </div>
-        <div className="pr-60 m-auto">
+        <div className="pr-72 m-auto">
           <Image
             className="rounded-full shadow-2xl"
             src="./images/profile_picture.png"
