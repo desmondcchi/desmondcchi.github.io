@@ -12,7 +12,8 @@
         "Reduced vertical onboarding time by ~1 week and decreased feature maintenance costs by integrating dynamic refinement chips and automated subtitle generation. Increased user satisfaction by 2%.",
         "Implemented a scalable fulfillment path that retrieves higher-quality metadata.",
         "Played a key role in achieving an increase in overall Search growth and improvement in key impact metrics."
-      ]
+      ],
+      "fa_comp_logo": "faGoogle"
     },
     {
       "title": "STEP Intern (Search)",
@@ -26,7 +27,8 @@
         "Constructed several Flume pipelines to filter, analyze, and compute the similarity of embeddings and generate clusters.",
         "Optimized a bottom-up clustering algorithm via hyperparameter tuning, which improved the cohesiveness of the clusters and increased cluster coverage by 41% on average.",
         "Utilized C++, parallel data processing (Flume), and machine learning concepts and skills such as embeddings, unsupervised learning, and clustering algorithms."
-      ]
+      ],
+      "fa_comp_logo": "faGoogle"
     },
     {
       "title": "STEP Intern (Cloud Tech Infrastructure)",
@@ -39,7 +41,8 @@
         "Developed a full-stack Cloud Tech Infrastructure dashboard that analyzes RPC latency for a distributed file system proxy service.",
         "Learned and utilized SQL, C++, Object-Oriented Programming, Version Control, HTML, CSS, and JavaScript.",
         "Gained knowledge and experience in the software engineering industry from full-time engineers."
-      ]
+      ],
+      "fa_comp_logo": "faGoogle"
     }
   ]
 }
