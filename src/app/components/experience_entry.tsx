@@ -45,7 +45,7 @@ export default function ExperienceEntry({
         <FontAwesomeIcon
           icon={StringToFaIcon(fa_comp_logo)}
           size="6x"
-          className="absolute w-20 z-10 -ml-[6.5rem] mt-[5rem] shadow-2xl"
+          className="absolute w-20 z-10 -ml-[6.5rem] mt-[5rem]"
         ></FontAwesomeIcon>
       </div>
       <div className="my-[75px]">
