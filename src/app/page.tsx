@@ -16,9 +16,9 @@ export default function Home() {
           <b className="heading_text text-7xl">Desmond Chi</b>
           <p className="text-xl font-light">An aspiring software engineer.</p>
         </div>
-        <div className="profile_picture inline-block pr-80 m-auto">
+        <div className="pr-72 m-auto">
           <Image
-            className="rounded-full"
+            className="rounded-full shadow-2xl"
             src="./images/profile_picture.png"
             alt={""}
             width="300"
