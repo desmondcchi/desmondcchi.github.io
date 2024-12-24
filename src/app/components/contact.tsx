@@ -21,7 +21,7 @@ export default function Contact() {
         <div className="flex items-start justify-center m-[-1.5rem]">
           <a
             href="./data/Desmond%20Chi%20Resume.pdf"
-            download="Desmond Chi Resume.pdf"
+            target="_blank"
           >
             <div className="flex items-center justify-center font-thin ml-[-8rem]">
               <FontAwesomeIcon
